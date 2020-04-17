@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout"
 import Button from "../examples/Button"
+import RegularHeader from "../examples/RegularHeader"
 
 export default class tours extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class tours extends Component {
           </Button>
           <Button color="red">second button</Button>
         </div>
+        <RegularHeader></RegularHeader>
       </Layout>
     )
   }
